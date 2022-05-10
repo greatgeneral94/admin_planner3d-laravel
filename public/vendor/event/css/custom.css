@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 16, 2018, 12:39:12 PM
+    Author     : Md. Rubel
+*/
+
+      .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      }
+      ul.parsley-errors-list {
+      padding: 0px;
+      padding-top: 5px;
+      }    
+      ul.parsley-errors-list li {
+      list-style: none;
+      color:red;
+      }
+      .parsley-error{
+      border: 1px red solid !important; 
+      }
+      .parsley-success{
+      border: 1px green solid !important;  
+      }
+      .mt30{
+      margin-top: 25px;
+      }
+      .fc-event {
+      padding: 5px;
+      margin: 5px;
+      cursor: pointer;
+ 
+      }
+      
+      .loader{
+	position: absolute;
+	margin-left: 40%;
+	z-index: 9999;
+}
+   
+.fc-view-container {
+    background-color: #FFFFFF !important;
+    float: right !important;
+    border-left: 1px solid #DFE3E7 !important;
+}
+th.fc-day-header.fc-widget-header.fc-sun {
+    color: #FF5B5C !important;
+}
+td.fc-day-top.fc-sun.fc-past>a ,td.fc-day-top.fc-sun.fc-future>a {
+    color: #FF5B5C !important ;
+}
+th.fc-day-header.fc-widget-header>a {
+    color: #304156 !important;
+}
+td.fc-day-top>a {
+    color: #304156;
+}
+a.fc-day-grid-event.fc-h-event.fc-event {
+    line-height: inherit;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #5A8DEE !important;
+    background-color: #E2ECFF !important;
+    border-color: #5A8DEE !important;
+    border-left-style: solid;
+    border-left-width: 3px;
+}
+.fc .fc-button-group>* {
+    border: 1px solid #DFE3E7;
+    padding: 0.267rem 1.5rem 0.267rem 0.9rem;
+    font-family: "Rubik", Helvetica, Arial, serif;
+}
+button.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right {
+    background: #475F7B;
+    color: white !important;
+    font-weight: 300;
+}
+button.fc-agendaDay-button.fc-button.fc-state-default.fc-corner-right {
+    border-color: #FDAC41;
+    background: #FDAC41;
+    color: white;
+}
+button.fc-agendaWeek-button.fc-button.fc-state-default {
+    border-color: #39DA8A;
+    background: #39DA8A;
+    color: white;
+}
+button.fc-month-button.fc-button.fc-state-default.fc-corner-left {
+    background: #5A8DEE;
+    color: white;
+    border-color: #5A8DEE;
+}
+
+button.fc-prevYear-button.fc-button.fc-state-default.fc-corner-left,button.fc-nextYear-button.fc-button.fc-state-default.fc-corner-right,button.fc-prev-button.fc-button.fc-state-default,button.fc-next-button.fc-button.fc-state-default {
+    background: #475F7B;
+    color: white !important;
+    font-weight: 300;
+}
+.form-control {
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}

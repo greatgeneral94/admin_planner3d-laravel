@@ -1,0 +1,9 @@
+payment_id 
+people
+date
+transaction_id
+currency
+transaction_type
+card_number
+amount
+package_id
